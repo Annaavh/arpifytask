@@ -28,10 +28,10 @@ function Page1() {
         <table className="table mt-2">
         <thead>
           <tr>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Action</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
 
