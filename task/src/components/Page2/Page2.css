@@ -1,0 +1,22 @@
+.photo,.pdf{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.photo input,.pdf input{
+    width: 204px;
+}
+.form-check{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.form-check div{
+    margin-right: 43px;
+}
+.form-group label{
+   margin-bottom: 10px;
+}
+.btn{
+    margin-top: 15px;
+}

@@ -1,0 +1,30 @@
+.my-account>td{
+    background-color: blueviolet;
+    color: white;
+}
+.my-account:hover td{
+    background-color: rgb(138, 13, 255);
+    color: white;
+}
+.account:hover td{
+    background-color:rgb(234, 212, 255);
+}
+.btn-login{
+    padding: 5px 54px;
+    outline: none;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    margin: 20px 12px;
+    float: right;
+}
+.btn-login:hover{
+    background-color: blueviolet;
+   
+}
+.btn-login:hover a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
