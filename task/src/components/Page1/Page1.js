@@ -30,7 +30,7 @@ function Page1() {
 
   return (
     <div>
-  <button className="btn-login" ><Link to="/login">Login</Link></button>
+  <Link to="/login"><button className="btn-login" >Login</button></Link>
       <table className="table mt-2 text-center">
         <thead>
           <tr>
@@ -44,6 +44,7 @@ function Page1() {
         <tbody>
           {data &&
             data.map((item, index) => {
+              console.log(item.birthDay?.slice(0,10))
               return (
                 <tr
                   key={index}
@@ -55,7 +56,7 @@ function Page1() {
                 >
                   <td>{item.firstName}</td>
                   <td>{item.lastName}</td>
-                  <td>{item.birthDay}</td>
+                  <td>{item.birthDay?.slice(0,10)}</td>
                   <td>{item.gender}</td>
                 </tr>
               );

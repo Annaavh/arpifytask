@@ -19,10 +19,8 @@
 }
 .btn-login:hover{
     background-color: blueviolet;
-   
-}
-.btn-login:hover a{
     color: white;
+   
 }
 a{
     text-decoration: none;
